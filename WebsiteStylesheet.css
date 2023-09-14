@@ -9,7 +9,7 @@
     left: 50%;
     width: 40em;
     height: 27em;
-    margin-top: -9em;
+    margin-top: -18em;
     margin-left: -20em;
     border: 1px solid #666;
     background-color: #b9faac;
@@ -26,14 +26,15 @@
 }
 
 .paraText{
-    padding-left: 10px;
-    opacity: 0;
+    padding-left: 40px;
+    font-size: 18px;
+    transition-duration: 0.5s;
 }
 
 .paraText:hover{
-    transition-duration: 1s;
-    opacity: 100;
+    font-size: 20px;
 }
+
 
 .image-box{
 
